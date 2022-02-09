@@ -68,6 +68,10 @@ function coinspot(key, secret) {
 		request('/api/my/balances', {}, callback);
 	}
 
+	self.balancesV2 = function(callback) {
+		request('/api/v2/ro/my/balances', {}, callback);
+	}
+
 	self.orders = function(cointype, callback) {
 		request('/api/orders', {cointype:cointype}, callback);
 	}
@@ -78,6 +82,10 @@ function coinspot(key, secret) {
 
 	self.spot = function(callback) {
 		request('/api/spot', {}, callback);
+	}
+
+	self.orderHistory = function(callback) {
+		request('/api/v2/ro/my/orders/completed', {}, callback);
 	}
 
 	self.buy = function(cointype, amount, rate, callback) {
