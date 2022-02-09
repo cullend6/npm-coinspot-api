@@ -1,5 +1,6 @@
 Please see https://www.coinspot.com.au/api for documentation on the CoinSpot API.
 
+Forked from https://github.com/rtw/npm-coinspot-api with the addition of some V2 endpoints not currently available in the Coinspot SDK.
 
 Example usage
 

@@ -1,5 +1,5 @@
 {
-  "name": "coinspot-api",
+  "name": "coinspot-api-v2",
   "version": "0.1.20",
   "description": "coinspot.com.au API client for node.js",
   "keywords": [
