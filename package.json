@@ -1,0 +1,19 @@
+{
+  "name": "coinspot-sdk",
+  "version": "2.3.0",
+  "description": "An SDK for the CoinSpot API",
+  "main": "coinspot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Connor2803/coinspot-api-2024.git"
+  },
+  "author": "Connor Grayden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Connor2803/coinspot-api-2024/issues"
+  },
+  "homepage": "https://github.com/Connor2803/coinspot-api-2024#readme"
+}
